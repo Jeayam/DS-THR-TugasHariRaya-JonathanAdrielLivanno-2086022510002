@@ -8,9 +8,6 @@ class Book {
     protected int year;
 
     public Book(String title, String author, int year) {
-        if (title.length() >= 255) {
-            throw new IllegalArgumentException("Title too long");
-        }
         if (author.length() >= 50) {
             throw new IllegalArgumentException("Author name too long");
         }
