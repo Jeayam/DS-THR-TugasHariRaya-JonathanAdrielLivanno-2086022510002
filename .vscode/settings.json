@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
+        "Question3/src",
         "Question2/src",
         "Question1/src",
-        "Question3/src"
+        "Question4/src"
     ],
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
